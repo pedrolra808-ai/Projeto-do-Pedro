@@ -1,0 +1,96 @@
+/*skills.css*/
+.skills {
+  background: #000000;
+  color: rgb(250, 250, 250);
+  text-align: center;
+  padding: 100px;
+}
+
+.subtitulo_skills {
+  font-size: 50px;
+}
+
+.skills p {
+  padding: 0 50px;
+}
+
+.img_skills {
+  display: flex;
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.img_skills img {
+  width: 90px;   /* tamanho das imagens */
+  height: 90px;
+  object-fit: contain;
+}
+
+.skills p {
+  font-size: 1.5rem;
+  padding: 20px 150px 50px 150px;
+  margin-top: 20px;
+}
+
+@media (max-width: 800px){
+  .skills {
+    grid-template-columns: 1fr;
+    gap: 40px;
+    text-align: left;
+    padding: 20px;
+  }
+
+  .skills .img_skills {
+    justify-content: flex-start; /* joga pro canto esquerdo */
+    align-items: center;         /* mantém alinhado verticalmente */
+    margin: 30px 30px 30px 0px;
+  }
+
+  .skills p {
+    padding: 5px 100px 5px 5px;
+  }
+}
+
+/*footer.css*/
+.footer {
+  background: black;
+  color: white;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.footer-contatos {
+  font-size: 2.25rem;
+  margin-bottom: 15px;
+}
+
+.footer-icones {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  list-style: none;
+  padding: 0;
+}
+
+.footer-icones a {
+  display: inline-block;
+  padding: 10px;
+  font-size: 20px;
+  width: 20px;
+  text-align: center;
+  border-radius: 50%;
+  background: white;
+  color: black;
+}
+
+.footer-icones a:hover {
+  opacity: 0.7;
+}
+
+.footer-copy {
+  margin-top: 30px;
+  font-size: 1.125rem;
+  color: #d1d1d1;
+}

@@ -1,0 +1,45 @@
+/*formacao.css*/
+.sobre_mim {
+  max-width: 1200px;
+  padding: 40px 20px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 100 px;
+}
+
+.sobre_mim .subtitulo {
+  font-size: 100px;
+  color: #000000;
+  text-align: center;
+}
+
+.sobre_mim_texto {
+  font-size: 1.5rem;
+  line-height: 1.33;
+  max-width: 60ch;
+  margin-bottom: 60px;
+  color: rgb(0, 0, 0);
+}
+
+.sobre_mim_texto strong {
+  color: #000000;
+  text-transform: uppercase;
+}
+
+@media (max-width: 800px) {
+  .sobre_mim {
+    grid-template-columns: 1fr;
+    gap: 40px;
+    text-align: left;
+  }
+
+  .sobre_mim .subtitulo {
+    font-size: 3rem;
+    max-width: initial;
+  }
+
+  .sobre_mim_texto {
+    font-size: 1.25rem;
+  }
+}

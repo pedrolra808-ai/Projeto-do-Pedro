@@ -1,0 +1,42 @@
+/*global.css*/
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'poppins', sans-serif;
+    margin: 0;
+    color: rgb(46, 171, 255);
+    background: white;
+}
+
+h1,h2,h3, p {
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'poppins', sans-serif;
+    margin: 0;
+    color: rgb(46, 171, 255);
+    background: white;
+}
+
+h1,h2,h3, p {
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
